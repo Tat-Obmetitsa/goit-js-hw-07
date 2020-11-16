@@ -8,7 +8,6 @@ const ingredients = [
 ];
 const listRef = document.querySelector('#ingredients');
 const createItem = item => {
-  const listItemRef = document.createElement('li');
   let listItemRef = document.createElement('li');
   listItemRef.textContent = item;
   listRef.appendChild(listItemRef);
