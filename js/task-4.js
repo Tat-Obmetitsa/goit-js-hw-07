@@ -5,8 +5,8 @@ let counterValue = 0;
 addListenerBtn.addEventListener('click', onIncrementClick);
 removeListenerBtn.addEventListener('click', onDecrementClick);
 function onIncrementClick() {
-  counterValueRef.textContent = counterValue += 1;;
+  counterValueRef.textContent = counterValue += 1;
 }
 function onDecrementClick() {
-  counterValueRef.textContent = counterValue -= 1;;
+  counterValueRef.textContent = counterValue -= 1;
 }
