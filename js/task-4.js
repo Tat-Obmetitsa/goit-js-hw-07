@@ -4,13 +4,9 @@ let removeListenerBtn = document.querySelector('[data-action="decrement"]');
 let counterValue = 0;
 addListenerBtn.addEventListener('click', onIncrementClick);
 removeListenerBtn.addEventListener('click', onDecrementClick);
-function onIncrementClick(event) {
-  event = counterValue += 1;
-  counterValueRef.textContent = event;
-  return event;
+function onIncrementClick() {
+  counterValueRef.textContent = counterValue += 1;;
 }
-function onDecrementClick(event) {
-  event = counterValue -= 1;
-  counterValueRef.textContent = event;
-  return event;
+function onDecrementClick() {
+  counterValueRef.textContent = counterValue -= 1;;
 }
